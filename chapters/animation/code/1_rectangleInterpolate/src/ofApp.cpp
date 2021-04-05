@@ -38,6 +38,8 @@ void ofApp::draw(){
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
-	//myRectangle.posa.x = x;
-	//myRectangle.posa.y = y;   
+    // Change starting position and restart animation
+    myRectangle.posa.x = x;
+    myRectangle.posa.y = y;
+    pct = 0;
 }
